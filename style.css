@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+/* contenitore generale */
+.general-container{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-size: 100%;
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 30px;
+    position: relative;
+    top: 7%;
+}
+
+/* dimenzionamento titolo */
+.main-title{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/* dimensionamento logo */
+.logo{
+    height: 100px;
+    margin-top: 70px;
+}
+
+/* stile titolo2 */
+.main-sub-title{
+    background-size: cover;
+    text-align: center;
+    height: 50px;
+    color: rgb(0, 255, 0);
+    display: block;
+    font-size: 30px;
+}
+
+
+/* inizio tab-navigazione */
+
+/* contenitore generale comandi */
+.cont-nav{
+    height: 40px;
+    width: 90vh;
+    margin: auto;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+/* bottoni */
+.commands{
+    height: auto;
+    margin: 5px;
+}
+
+/* contenitore principale monopattini disponibili */
+.cont-main{
+    margin: auto;
+    height: auto;
+    width: 90vh;
+    color: white;
+}
+
+/* formato elenco monopattini */
+.section-format{
+    margin-top: 15px;
+}
+
+/* grandezza testo possessori monopattini */
+#nome{
+    font-size: 21px;
+}
+
+/* stato batterie */
+.charge1{
+    height: 25px;
+    width: 30vh;
+    background-color: orange;
+}
+
+.charge2{
+    height: 25px;
+    width: 55vh;
+    background-color: green;
+}
+
+.charge3{
+    height: 25px;
+    width: 15vh;
+    background-color: red;
+}
+
+
